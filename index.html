@@ -15,10 +15,17 @@
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body>
-  <div class="gradient-bg"></div>
+  <body>
+    <div class="gradient-bg"></div>
 
-  <header>
+    <!-- Floating decorative elements -->
+    <div class="floating-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+
+    <header>
     <a href="./" class="logo-container">
       <img src="assets/logo.png" alt="Oxylium Logo">
       <span>Oxylium</span>
@@ -35,6 +42,8 @@
   <main>
     <!-- Hero Section -->
     <section class="hero">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
       <div class="hero-content">
         <h1>Breathe Better,<br>Journey Healthier.</h1>
         <p>Oxylium analyzes air quality in real-time to suggest the least polluted routes. Environmental intelligence at the service of your health.</p>
@@ -54,19 +63,47 @@
     <section class="features" id="features">
       <div class="feature-grid">
         <div class="feature-card">
+          <img src="assets/Image1.jpeg" alt="Real-time Air Quality" class="feature-img" onerror="this.style.display='none'">
           <div class="icon"><i data-lucide="wind"></i></div>
           <h3>Real-time Air Quality</h3>
           <p>Precise AQI index based on your exact GPS position, updated constantly from reliable environmental sensors.</p>
         </div>
         <div class="feature-card">
+          <img src="assets/Image2.jpeg" alt="Green Routing" class="feature-img" onerror="this.style.display='none'">
           <div class="icon"><i data-lucide="map-pin"></i></div>
           <h3>Green Routing</h3>
           <p>Smart trip planner that calculates the path with the minimum exposure to pollutants, prioritizing your lung health.</p>
         </div>
         <div class="feature-card">
+          <img src="assets/Image3.jpeg" alt="Privacy First" class="feature-img" onerror="this.style.display='none'">
           <div class="icon"><i data-lucide="shield-check"></i></div>
           <h3>Privacy First</h3>
           <p>No tracking, no user account required. All your personal movement data stays securely on your device.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Graphic Section -->
+    <section class="feature-graphic">
+      <div class="graphic-container">
+        <img src="assets/oxylium_feature_graphic.png" alt="Oxylium Features" class="main-graphic" onerror="this.style.display='none'">
+        <div class="graphic-overlay">
+          <h2>Environmental Intelligence at Your Fingertips</h2>
+          <p>Real-time data. Smart routing. Pure peace of mind.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- App Showcase with Additional Images -->
+    <section class="showcase">
+      <div class="showcase-grid">
+        <div class="showcase-item">
+          <img src="assets/Image4.jpeg" alt="App Interface 1" class="showcase-img" onerror="this.style.display='none'">
+          <div class="showcase-caption">Live AQI Monitoring</div>
+        </div>
+        <div class="showcase-item">
+          <img src="assets/Image5.jpeg" alt="App Interface 2" class="showcase-img" onerror="this.style.display='none'">
+          <div class="showcase-caption">Route Optimization</div>
         </div>
       </div>
     </section>
